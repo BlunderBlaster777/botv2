@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment variables (never commit real keys!)
+.env
+
+# logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
+.idea/
+*.swp
+*.swo

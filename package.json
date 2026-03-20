@@ -1,0 +1,24 @@
+{
+  "name": "botv2",
+  "version": "1.0.0",
+  "description": "Uniswap V3 arbitrage bot for Polygon – trades between blue-chip token pairs on two fee-tier pools",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "dev": "ts-node src/main.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["arbitrage", "uniswap", "polygon", "defi", "ethereum"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
